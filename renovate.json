@@ -1,12 +1,6 @@
 {
 	"packageRules": [
 		{
-			"matchPackagePatterns": [
-				"*"
-			],
-			"enabled": false
-		},
-		{
 			"matchDatasources": [
 				"nuget"
 			],
