@@ -9,7 +9,7 @@
 Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
       <PackageReference Include="Newtonsoft.Json" Version="4.5.1" />
       <PackageReference Include="log4net" Version="2.0.8" />
-      <PackageReference Include="System.Net.Http" Version="4.1.1.2" />
+      <PackageReference Include="System.Net.Http" Version="4.3.4" />
       <EmbeddedResource Include="Middleware\**\*.html" />
     </ItemGroup>
 </Project>
