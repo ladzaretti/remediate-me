@@ -37,7 +37,7 @@
 				"System.Net.Http",
 				"system.net.http"
 			],
-			"matchCurrentVersion": "4.1.2",
+			"matchCurrentVersion": "4.1.1.2",
 			"allowedVersions": ">= 4.3.4",
 			"vulnerabilityAlert": true,
 			"enabled": true,
