@@ -1,0 +1,99 @@
+{
+	"packageRules": [
+		{
+			"matchPackagePatterns": [
+				"*"
+			],
+			"enabled": false
+		},
+		{
+			"matchDatasources": [
+				"nuget"
+			],
+			"matchPackageNames": [
+				"log4net"
+			],
+			"matchCurrentVersion": "2.0.8",
+			"allowedVersions": ">= 2.0.10",
+			"vulnerabilityAlert": true,
+			"enabled": true,
+			"ignoreUnstable": false,
+			"groupName": null,
+			"schedule": [],
+			"dependencyDashboardApproval": false,
+			"labels": [
+				"security fix"
+			],
+			"prBodyTemplate": "{{{table}}}{{{notes}}}{{{changelogs}}}{{{controls}}}",
+			"prBodyNotes": [
+				"By merging this PR, the below vulnerabilities will be automatically resolved:\n\n| Severity           | <a href=\"#\"><img src='https://whitesource-resources.whitesourcesoftware.com/cvss3.png' width=19 height=20></a> CVSS Score       |CVE  |\n|---|---|---|\n| ![High](https://whitesource-resources.whitesourcesoftware.com/high_vul_bb.png) High | 9.8 | [CVE-2018-1285](https://www.mend.io/vulnerability-database/CVE-2018-1285) |\n<!--[REMEDIATE_ANALITICS]{\"libraryData\":{\"libraryName\":\"log4net\",\"libraryVersion\":\"2.0.8\",\"libraryFixVersion\":[\"log4net - 2.0.10\"],\"libraryArtifactId\":\"log4net\",\"language\":\"Nuget\"},\"vulnerabilityData\":[{\"severity\":\"High\",\"score\":\"9.8\",\"vulnerabilityId\":\"CVE-2018-1285\"}]}[/REMEDIATE_ANALITICS]-->"
+			],
+			"isVulnerabilityAlert": true,
+			"commitMessageSuffix": "",
+			"suppressNotifications": [
+				"prIgnoreNotification",
+				"prEditNotification"
+			]
+		},
+		{
+			"matchDatasources": [
+				"nuget"
+			],
+			"matchPackageNames": [
+				"System.Net.Http",
+				"system.net.http"
+			],
+			"matchCurrentVersion": "4.1.2",
+			"allowedVersions": ">= 4.3.4",
+			"vulnerabilityAlert": true,
+			"enabled": true,
+			"ignoreUnstable": false,
+			"groupName": null,
+			"schedule": [],
+			"dependencyDashboardApproval": false,
+			"labels": [
+				"security fix"
+			],
+			"prBodyTemplate": "{{{table}}}{{{notes}}}{{{changelogs}}}{{{controls}}}",
+			"prBodyNotes": [
+				"By merging this PR, the below vulnerabilities will be automatically resolved:\n\n| Severity           | <a href=\"#\"><img src='https://whitesource-resources.whitesourcesoftware.com/cvss3.png' width=19 height=20></a> CVSS Score       |CVE  |\n|---|---|---|\n| ![High](https://whitesource-resources.whitesourcesoftware.com/high_vul_bb.png) High | 7.5 | [CVE-2018-8292](https://www.mend.io/vulnerability-database/CVE-2018-8292) |\n<!--[REMEDIATE_ANALITICS]{\"libraryData\":{\"libraryName\":\"System.Net.Http\",\"libraryVersion\":\"4.1.2\",\"libraryFixVersion\":[\"System.Net.Http - 4.3.4\",\"Microsoft.PowerShell.Commands.Utility - 6.1.0-rc.1\"],\"libraryArtifactId\":\"System.Net.Http\",\"language\":\"Nuget\"},\"vulnerabilityData\":[{\"severity\":\"High\",\"score\":\"7.5\",\"vulnerabilityId\":\"CVE-2018-8292\"}]}[/REMEDIATE_ANALITICS]-->"
+			],
+			"isVulnerabilityAlert": true,
+			"commitMessageSuffix": "",
+			"suppressNotifications": [
+				"prIgnoreNotification",
+				"prEditNotification"
+			]
+		},
+		{
+			"matchDatasources": [
+				"nuget"
+			],
+			"matchPackageNames": [
+				"Newtonsoft.Json",
+				"newtonsoft.json"
+			],
+			"matchCurrentVersion": "4.5.1",
+			"allowedVersions": ">= 13.0.1",
+			"vulnerabilityAlert": true,
+			"enabled": true,
+			"ignoreUnstable": false,
+			"groupName": null,
+			"schedule": [],
+			"dependencyDashboardApproval": false,
+			"labels": [
+				"security fix"
+			],
+			"prBodyTemplate": "{{{table}}}{{{notes}}}{{{changelogs}}}{{{controls}}}",
+			"prBodyNotes": [
+				"By merging this PR, the below vulnerabilities will be automatically resolved:\n\n| Severity           | <a href=\"#\"><img src='https://whitesource-resources.whitesourcesoftware.com/cvss3.png' width=19 height=20></a> CVSS Score       |CVE  |\n|---|---|---|\n| ![High](https://whitesource-resources.whitesourcesoftware.com/high_vul_bb.png) High | 7.5 | [WS-2022-0161](https://github.com/JamesNK/Newtonsoft.Json/commit/7e77bbe1beccceac4fc7b174b53abfefac278b66) |\n<!--[REMEDIATE_ANALITICS]{\"libraryData\":{\"libraryName\":\"Newtonsoft.Json\",\"libraryVersion\":\"4.5.1\",\"libraryFixVersion\":[\"Newtonsoft.Json - 13.0.1\",\"Microsoft.Extensions.ApiDescription.Server - 6.0.0\"],\"libraryArtifactId\":\"Newtonsoft.Json\",\"language\":\"Nuget\"},\"vulnerabilityData\":[{\"severity\":\"High\",\"score\":\"7.5\",\"vulnerabilityId\":\"WS-2022-0161\"}]}[/REMEDIATE_ANALITICS]-->"
+			],
+			"isVulnerabilityAlert": true,
+			"commitMessageSuffix": "",
+			"suppressNotifications": [
+				"prIgnoreNotification",
+				"prEditNotification"
+			]
+		}
+	]
+}
